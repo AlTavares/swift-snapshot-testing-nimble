@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = "SnapshotTesting-Nimble"
-    s.version = "0.1.0"
+    s.version = "2.1.3"
     s.summary = "Nimble matchers for swift-snapshot-testing by pointfreeco"
 
     s.description = <<-DESC
@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
     s.social_media_url = "https://twitter.com/killectro"
 
     s.source = {
-        :git => "https://github.com/killectro/swift-snapshot-testing-nimble.git",
-        :tag => "0.1.0"
+        :git => "https://github.com/AlTavares/swift-snapshot-testing-nimble.git",
+        :tag => "2.1.3"
     }
 
     s.dependency "SnapshotTesting", '~> 1.0'
