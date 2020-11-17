@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     s.dependency "SnapshotTesting", '~> 1.0'
     s.dependency "Nimble", '~> 8.0'
 
-    s.swift_version = "4.2"
+    s.swift_version = "5.0"
 
     s.ios.deployment_target = "10.0"
     s.osx.deployment_target = "10.10"
